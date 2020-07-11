@@ -6,18 +6,60 @@ font-family: trade-gothic-next, sans-serif;
   margin: 100px
 }
 
-#signin {
-  display: none;
-}
-
 header{
 
+}
+
+figcaption{
+  color: gray
 }
 
 #shell{
   background-color: red;
   margin: 0;
-  padding: 10px
+  padding: 0;
+}
+
+
+img#hb3 {
+margin:10px 14px;
+width:100px;
+display: inline-block;
+vertical-align: middle;
+}
+
+#shell p{
+  display: inline-block;
+  color: white;
+  /* padding: 15px; */
+  margin: 10px 20px;
+  vertical-align: middle;
+}
+
+
+#login{
+  float: right;
+  display: inline-block;
+  margin-right: 20px
+
+}
+
+img#div{
+  width: 30px;
+  margin: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#login p{
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 0;
+  margin-right: 20px;
+}
+
+#login a{
+  color: white
 }
 
 h1{
@@ -53,40 +95,44 @@ h1{
   background-color: #4CAF50;
 }
 
-
-#nav li#login{
-  float: right;
-}
-
 #content{
 
 }
 
-#main,#ads{
+#main,#ad1{
   display: inline-block;
   /* overflow: hidden; */
 }
 
 #main{
-  /* margin: 50px 20px; */
-  padding: 150px 20px;
-  background-color: gray;
+
 }
 
-#ads{
-  margin: 10px 0;
-  float: right;
-  width: 30%;
+img#banner{
+width:100%
+}
+
+img#NE{
+
+  width:100%
 }
 
 #ad1{
-  height: 300px;
-  background-color: gray;
-  margin: 0
+  margin: 10px 0;
+  float: right;
+  width: 30%;
+  /* height: 200px; */
 }
 
+#announcements{
+  width: 50%;
+  margin: 20px 20px 50px 14px;
+}
+
+
 #ad2{
-  height: 500px;
+  width: 75%;
+  height: 200px;
   background-color: gray;
   margin: 20px 0
 }

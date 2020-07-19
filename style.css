@@ -64,7 +64,8 @@ vertical-align: middle;
 #login{
   float: right;
   display: inline-block;
-  margin-right: 20px
+  margin-right: 20px;
+  background-color: red;
 
 }
 
@@ -153,12 +154,21 @@ img#NE{
 }
 
 #announcements > h2 {
-  color: navy
+  color: navy;
+  font-size: 32px
+}
+
+#announcements h3 {
+  font-size: 24px
+}
+
+#announcements p{
+  font-size: 18px
 }
 
 #announcements > div {
   background-color: navy;
-  padding: 10px;
+  padding: 10px 25px;
   margin-bottom: 10px;
   color: #f3f3f3;
   border-radius: 7px;
@@ -180,4 +190,10 @@ img#ducees{
 footer{
   margin-top:100%;
   margin-left: 50px
+}
+
+#error{
+  margin: 10%;
+  font-size: 120px;
+  color: navy
 }

@@ -2,17 +2,21 @@ body{
 font-family: trade-gothic-next, sans-serif;
 }
 
-/* .faded{
-z-index : 50;
-filter : alpha(opacity=100);
+#faded{
+z-index :50;
+opacity: .8;
   position: fixed;
+  background-color: black;
   top:0;
-  left: 0
-} */
+  left: 0;
+  height: 100%;
+width: 100%;
 
-/* .message{
+}
+
+.message{
 z-index : 100;
-filter : alpha(opacity=100);
+opacity: 1;
 POSITION: fixed;
 left: 20%;
 top: 150px;
@@ -28,7 +32,7 @@ padding: 50px;
 
 .hide{
   display: none;
-} */
+}
 
 header{
 
@@ -84,7 +88,8 @@ img#div{
 }
 
 #login a{
-  color: white
+  color: white;
+  text-decoration: none;
 }
 
 h1{
@@ -189,7 +194,7 @@ img#ducees{
 
 footer{
   margin-top:100%;
-  margin-left: 50px
+  margin-left: 10px
 }
 
 #error{
